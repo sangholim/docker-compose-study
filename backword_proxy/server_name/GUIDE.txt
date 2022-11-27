@@ -1,0 +1,4 @@
+## alias 도메인 설정
+/etc/hosts
+
+127.0.0.1 localhost api1.com api2.com
