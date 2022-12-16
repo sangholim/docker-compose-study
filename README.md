@@ -5,6 +5,7 @@
   - 기본적으로 컨테이너들이 단일 네트워크 interface 에서 처리된다
 - 환경 변수 주입이 쉬움
 - http proxy 패턴을 구현하기 쉬움 (with nginx)
+- service scale out 한 경우, http 요청시 순서대로 service에서 요청을 처리한다
 ## 단점
 - monolith-web-application 이 포함된 다중 서비스를 운영해야 하는 경우, \
   nginx 기반 http proxy 패턴을 변경하거나 분리할 필요가 있음
